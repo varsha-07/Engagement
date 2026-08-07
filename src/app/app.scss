@@ -1,0 +1,145 @@
+.child-element {
+    font-size: clamp(18px, 4vw, 26px);
+    font-family: "Poiret One", sans-serif;
+    color: #121358;
+    line-height: 1.4;
+    display: block;
+}
+
+.cute-font {
+    font-size: clamp(38px, 6vw, 55px);
+    font-family: "Tangerine", sans-serif;
+    color: #121358;
+    display: block;
+}
+
+.ganesh-img {
+    max-height: 280px;
+    width: auto;
+    object-fit: contain;
+}
+
+.wreath-container {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.wreath-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Tangerine", sans-serif;
+    font-size: clamp(52px, 5.5vw, 58px);
+    color: #043d5a;
+    width: 85%;
+    line-height: 1.2;
+}
+
+.peacock-engagement-card {
+    position: relative;
+    width: 280px;
+    background: linear-gradient(135deg, #005f73 0%, #0a9396 100%);
+    border: 3px solid #ee9b00;
+    border-radius: 24px;
+    padding: 30px 20px 20px 20px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 95, 115, 0.4);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    overflow: visible;
+}
+
+.card-title {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #e9d8a6;
+    margin-bottom: 15px;
+}
+
+.arch-frame {
+    background: #03506f;
+    padding: 20px 15px;
+    border-radius: 50% 50% 12px 12px / 40% 40% 12px 12px;
+    border: 1.5px solid #ee9b00;
+    box-shadow: inset 0 0 15px rgba(10, 147, 150, 0.6);
+}
+
+.date-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.date-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-num {
+    font-family: 'Cinzel', serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1;
+}
+
+.date-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #94d2bd;
+    margin-top: 5px;
+}
+
+.date-divider {
+    width: 2px;
+    height: 40px;
+    background: linear-gradient(to bottom, transparent, #ee9b00, transparent);
+}
+
+.card-footer {
+    font-size: 16px;
+    font-style: italic;
+    color: #e9d8a6;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.card-footer-link {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #e9d8a6;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 1px dashed rgba(233, 216, 166, 0.4);
+    padding-bottom: 2px;
+}
+
+
+.card-footer-link:hover {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+    transform: translateY(-1px);
+}
+
+.pin-icon {
+    font-size: 11px;
+    margin-right: 4px;
+    opacity: 0.9;
+}
